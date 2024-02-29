@@ -10,9 +10,6 @@ body {
   overflow-x: hidden;
   background-color: rgb(57, 117, 115);
   font-family: Khula;
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: center; */
 }
 
 .header {
@@ -58,24 +55,7 @@ body {
 .find {
   background-color: aliceblue;
   color: #000000;
-  /* Apply the animation */
-  /* animation-name: slideIn;
-  position: relative;
-  top: 0; */
-  /* animation: slideIn 5s infinite;
-  animation-duration: 3s;
-  animation-iteration-count: infinite; */
 }
-
-/* @keyframes slideIn {
-  0% {
-    transform: scale(0.5);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-} */
 
 @keyframes slideIn {
   100% {
@@ -102,7 +82,6 @@ body {
 }
 
 .search {
-  /* display: flex; */
   margin-top: 30px;
   justify-content: center;
   align-items: center;
@@ -160,13 +139,6 @@ body {
   width: 100%;
   height: 200px;
   border-radius: 1rem 1rem 0 0;
-}
-
-.image-box {
-  /* Apply the animation */
-  /* animation-name: bounce; */
-  /* animation-duration: 0.8s; */
-  animation-iteration-count: infinite;
 }
 
 @keyframes bounce {
@@ -331,28 +303,17 @@ body {
     z-index: 10;
   }
 
-  .image-box {
-    /* Apply the animation */
-    /* animation-name: bounce;
-    animation-duration: 0.9s;
-    animation-iteration-count: infinite; */
-    animation: none;
-  }
-
   @keyframes bounce {
     0% {
       margin-top: 1px;
-      /* Adjust margin-top for smaller screens */
     }
 
     25% {
       margin-top: 8px;
-      /* Adjust margin-top for smaller screens */
     }
 
     50% {
       margin-top: 5px;
-      /* Adjust margin-top for smaller screens */
     }
 
     100% {
@@ -370,7 +331,6 @@ body {
 @media (max-width: 1500px) {
   .header {
     width: 100%;
-    /* height: auto; */
     color: rgba(245, 192, 16, 0.991);
     box-shadow: 0 5px 10px #d4b996ff;
     display: flex;
