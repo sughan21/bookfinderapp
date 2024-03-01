@@ -54,9 +54,9 @@ const BookFinder = () => {
             <button className="search-btn">
               <FaSearch />
             </button>
-            <div className="reading-books">
+            {/* <div className="reading-books">
               <img src={BgImage} alt="" className="image-box" />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

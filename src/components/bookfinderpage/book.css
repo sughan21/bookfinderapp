@@ -47,7 +47,7 @@ body {
   color: rgb(255, 255, 255);
   /* background-color: rgb(255, 255, 255); */
   font-size: 3rem;
-  margin-top: 30px;
+  margin-top: 12rem;
   margin-bottom: 15px;
   font-family: Khula;
 }
@@ -55,19 +55,6 @@ body {
 .find {
   background-color: aliceblue;
   color: #000000;
-}
-
-@keyframes slideIn {
-  100% {
-    width: 100%;
-  }
-}
-
-@keyframes slideIn {
-  100% {
-    transform: translateY(0px);
-    opacity: 1;
-  }
 }
 
 .head-row2 img {
@@ -78,13 +65,14 @@ body {
 .head-row1 h1 {
   font-size: 3rem;
   text-align: center;
-  margin-left: 35px;
+  margin-left: 5rem;
 }
 
 .search {
-  margin-top: 30px;
+  margin-top: 2rem;
   justify-content: center;
   align-items: center;
+  padding-bottom: 10rem;
 }
 
 .search input {
@@ -138,7 +126,7 @@ body {
 .card img {
   width: 100%;
   height: 200px;
-  border-radius: 1rem 1rem 0 0;
+  border-radius: 4rem 1rem 0 0;
 }
 
 @keyframes bounce {
@@ -196,7 +184,7 @@ body {
 }
 
 .overlay-inner {
-  background-color: white;
+  background-color: rgb(140, 187, 240);
   width: 700px;
   height: 550px;
   padding: 1.5rem;
@@ -230,11 +218,12 @@ body {
 
 .overlay-inner .inner-box h3 {
   margin-top: 10px;
-  color: green;
+  color: rgb(255, 255, 255);
+  text-shadow: #bf1818 4px 2px;
 }
 
 .overlay-inner .inner-box h4 {
-  color: rgb(236, 136, 21);
+  color: rgb(49, 23, 245);
 }
 
 .overlay-inner .inner-box button {
@@ -242,7 +231,7 @@ body {
   border: none;
   width: 100px;
   border-radius: 5px;
-  background-color: #24a0ed;
+  background-color: #ed2424;
   color: white;
   font-weight: bold;
   padding: 0.3rem 0.5rem;
