@@ -45,7 +45,7 @@ body {
 
 .head-row2 h2 {
   color: rgb(255, 255, 255);
-  /* background-color: rgb(255, 255, 255); */
+  text-shadow: #ea0f0f 3px 2px;
   font-size: 3rem;
   margin-top: 12rem;
   margin-bottom: 15px;
@@ -53,8 +53,8 @@ body {
 }
 
 .find {
-  background-color: aliceblue;
-  color: #000000;
+  color: #ffffff;
+  text-shadow: #15ff00 1px 1px;
 }
 
 .head-row2 img {
